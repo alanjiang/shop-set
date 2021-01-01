@@ -1,0 +1,78 @@
+{
+  "name": "vue-amap-search",
+  "description": "vue2.x amap search component vue2.x高德地图搜索组件",
+  "version": "0.1.3",
+  "main": "dist/lib/main.js",
+  "author": "mactive <mactive@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mactive/vue-amap-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mactive/vue-amap-search/issues"
+  },
+  "jsnext:main": "dist/lib/main.js",
+  "jspm": {
+    "main": "dist/lib/main.js",
+    "registry": "npm",
+    "format": "esm"
+  },
+  "keywords": [
+    "vue",
+    "amap",
+    "search"
+  ],
+  "scripts": {
+    "dev": "webpack-dev-server --config build/webpack.dev.conf.js --open",
+    "build": "webpack --config build/webpack.build.conf.js --progress",
+    "build:example": "webpack --config build/webpack.example.conf.js --progress"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "@babel/preset-stage-0": "^7.0.0",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-react-transform": "^3.0.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "element-ui": "^2.13.0",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-webpack-plugin": "^2.30.1",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "ts-axios-new": "^0.1.5",
+    "url-loader": "^0.5.8",
+    "vue": "^2.6.11",
+    "vue-image-crop-upload": "^2.5.0",
+    "vue-loader": "^15.7.0",
+    "vue-router": "^3.1.6",
+    "webpack-merge": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.5",
+    "babel-plugin-component": "^1.1.1",
+    "babel-preset-latest": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.9.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.2",
+    "style-loader": "^0.14.1",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "ts-loader": "^2.0.1",
+    "uglifyjs-webpack-plugin": "1.1.6",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}
